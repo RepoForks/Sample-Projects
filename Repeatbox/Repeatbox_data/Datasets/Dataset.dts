@@ -1,0 +1,14 @@
+<OBJECT>
+	<Dataset name="Dataset" id="45A412C4-84F1-41FB-8D31-6D16E5B6EF87" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific Table="00000000-0000-0000-0000-100000000001" AutoCommit="0" PreserveState="0" SelectAll="1" isServerObject="0">
+			<Fields>
+				<Field ID="1" Name="tablepalette.image" TblID="23F6C262-6FE5-4F43-BEBD-136465E6115C" />
+			</Fields>
+			<SqlText>
+			<![CDATA[
+SELECT "tablepalette".* FROM "tablepalette"
+			]]>
+			</SqlText>
+		</TypeSpecific>
+	</Dataset>
+</OBJECT>
