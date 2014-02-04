@@ -9,7 +9,7 @@ alert("onLongTouch is working");
 }
 function Page8_btnGeri11_OnPressed(e){
      Pages.Page7.show();
-}                     
+}
 function Page8_ImageButton1_OnPressed(e){
      if(Pages.Page8.RepeatBox1.visible)
      {

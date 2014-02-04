@@ -12,5 +12,5 @@ function Page6_RepeatBox1_OnRowRender(e) {
     } else {
         x = 1 ;
         Pages.Page6.RepeatBox1.Image11.alpha = x;
-    }                                             
+    }
 }

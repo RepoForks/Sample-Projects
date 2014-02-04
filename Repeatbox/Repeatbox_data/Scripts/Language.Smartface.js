@@ -23,7 +23,7 @@ function changeLang(languageCode, doNotify) {
             "untitled" : "Untitled",
             "yes" : "Yes",
             "delete":"Delete",
-            "sureToDelete": "Are you sure to delete?"                                                              
+            "sureToDelete": "Are you sure to delete?"
         };
         break;
     case "tr":

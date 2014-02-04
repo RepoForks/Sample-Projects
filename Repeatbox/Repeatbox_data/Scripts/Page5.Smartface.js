@@ -190,7 +190,6 @@ function Page5_btnEnableScroll_OnPressed(e) {
         Pages.Page5.RepeatBox1.enableScroll = true;
         Pages.Page5.Scrollview1.btnEnableScroll.text = "Enable Scroll is active";
     }
-
 }
 function Page5_btnGroupitems_OnPressed(e) {
     if (Pages.Page5.RepeatBox1.groupItems) {
@@ -216,7 +215,7 @@ function Page5_btnGroupStyle_OnPressed(e) {
 }
 function Page5_edtGroupingData_OnExit(e) {
     Pages.Page5.RepeatBox1.groupingDataField = Pages.Page5.Scrollview1.edtGroupingData.text;
-}               
+}
 function Page5_btnName_OnPressed(e) {
     alert("name = " + Pages.Page5.RepeatBox1.name);
 }
@@ -237,4 +236,3 @@ function Page5_btnEdge_OnPressed(e){
      function(){}
      );
 }
-
