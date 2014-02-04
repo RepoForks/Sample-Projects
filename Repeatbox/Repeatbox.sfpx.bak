@@ -1,4 +1,4 @@
-<SMARTFACEPROJECT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SmartfaceProjectPlayerUpdated.xsd" XmlVersion="964" LType="1" Name="Repeatbox" UID="1667327604" SID="-1" SName="No service selected" WS="http://www.smartface.biz" PublishUrl="http://www.smartface.biz" LastObjectID="B3264A30-D5C8-4115-ABED-DE6ABDD276A9" ActiveProfileIndex="0" Version="1.0.0" BiDiMode="0">
+<SMARTFACEPROJECT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SmartfaceProjectPlayerUpdated.xsd" XmlVersion="965" LType="1" Name="Repeatbox" UID="1667327604" SID="-1" SName="No service selected" WS="http://www.smartface.biz" PublishUrl="http://www.smartface.biz" LastObjectID="B3264A30-D5C8-4115-ABED-DE6ABDD276A9" ActiveProfileIndex="0" Version="1.0.0" BiDiMode="0">
 	<MainPageSettings Name="Page1" />
 	<Platform ScreenHeight="480" ScreenWidth="320" Dpi="163" AndroidVirtualDevice="" />
 	<SocialNetworks FacebookAppUID="" FacebookAppSecret="" TwitterConsumerKey="" TwitterConsumerSecret="" />
