@@ -1,5 +1,5 @@
 Sample-Projects
 ===============
 
-Sample Projects by App Studio
+Repeatbox sample for Android and iOS.
 ![](https://raw.github.com/smartface/Sample-Projects/master/Repeatbox/Repeatbox-ss.png)
