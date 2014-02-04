@@ -1,5 +1,5 @@
 Sample-Projects
 ===============
 
-Sample Projects by App Studio
+Toolbar sample for Android and iOS.
 ![](https://raw.github.com/smartface/Sample-Projects/master/Toolbar/Toolbar-ss.png)
