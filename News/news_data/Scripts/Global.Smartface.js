@@ -1,7 +1,5 @@
 var resObj = NULL;
 var row = NULL;
-
-
 function Global_Events_OnStart(e) {
     changeLang(Device.language, true);
     //define the length of the news initially.

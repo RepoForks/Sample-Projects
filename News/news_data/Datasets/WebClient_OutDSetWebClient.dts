@@ -1,6 +1,6 @@
 <OBJECT>
 	<Dataset name="WebClient_OutDSetWebClient" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
-		<TypeSpecific Table="00000000-0000-0000-0000-100000000001" AutoCommit="0" PreserveState="0" SelectAll="0" isServerObject="0">
+		<TypeSpecific Table="00000000-0000-0000-0000-100000000001" AutoCommit="0" FastCommit="0" PreserveState="0" SelectAll="0" isServerObject="0">
 			<Fields>
 				<Field ID="1" Name="WebClient_OutDTblWebClient.WebClientId" TblID="B15F1AC0-75CE-4079-A769-C231337F6EBA" />
 				<Field ID="2" Name="WebClient_OutDTblWebClient.WebClient" TblID="B15F1AC0-75CE-4079-A769-C231337F6EBA" />
