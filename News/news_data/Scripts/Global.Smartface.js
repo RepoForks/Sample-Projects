@@ -5,15 +5,15 @@ function Global_Events_OnStart(e) {
     //define the length of the news initially.
     newsLength = 0;
     //clears the dataset to get new ones.
-    Data.Dataset.clear();
+    Data.Dataset1.clear();
     //runs the JSON WebClient to fetch the news.
-    SMF.Net.WebClient.run(true);
+    SMF.Net.WebClient1.run(true);
 }
 function arrangeDataset() {
 //Arranging Dataset to create rows for repeatBox object.
     var i;
     for (i = 0; i < 10; i++) {
-        Data.Dataset.add();
-        Data.Dataset.commit();
+        Data.Dataset1.add();
+        Data.Dataset1.commit();
     }
 }

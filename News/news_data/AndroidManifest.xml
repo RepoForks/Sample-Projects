@@ -5,24 +5,22 @@
       android:versionName="${Version}"
       android:installLocation="auto" >
     <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="15" />
-   <!-- mesaj gonderme -->
+   <!-- Required for SEND_SMS function. -->
     <uses-permission android:name="android.permission.SEND_SMS" />
-    <!-- arama ayarlari -->
+    <!-- Required for phone call functions. -->
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <!-- internt -->
+    <!-- Required for Internet access by 3G, GSM and WIFI -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- gps kullaniminda -->
+    <!-- Required for GPS Usage. -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-	<!-- titresim kullaniminda -->
+	<!-- Required for vibrate function. -->
     <uses-permission android:name="android.permission.VIBRATE" />
-    <!-- contact table eklendiginde -->
+    <!-- Required for contact list functions. -->
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
-    <!-- application table eklendiginde --> 
+    <!-- Allows an application to get information about the currently or recently running tasks. --> 
     <uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
-    <!-- arama actioni kullanildiginda -->
-    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
-    <!-- camera kullaniminda -->
+    <!-- Required for camera functions. -->
     <uses-permission android:name="android.permission.CAMERA" />
     
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -171,7 +169,9 @@
           application uses a custom BroadcastReceiver that redefines its name.
         -->
         <service android:name="com.geniem.sprat.notifications.GcmIntentService" />	
-        
+        <meta-data
+			android:name="${PackageName}.useActionBar"
+			android:value="true"/>
         <meta-data
 		   android:name="com.google.android.maps.v2.API_KEY"
 		   android:value="AIzaSyDYMd2n7_RAVBu-lacJ1FaJtgZWIeDcBUg"/>
