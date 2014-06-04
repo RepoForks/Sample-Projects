@@ -547,7 +547,7 @@ function Global_Events_OnStart(e) {
             touchEnabled : false,
             layoutType : SMF.UI.LayoutType.linear,
             orientation : SMF.UI.Orientation.vertical,
-            layoutAlignment : "top", //buna hata veriyor
+            layoutAlignment : "top",
             autoSize : true,
             fillColor : "#EFF3EF",
         });
@@ -619,7 +619,7 @@ function Global_Events_OnStart(e) {
             left : 0,
             top : "0",
             touchEnabled : true,
-            imageFillType : "aspectFit", //buna hata veriyor
+            imageFillType : "aspectFit",
             backgroundTransparent : false,
             fillColor : "black",
             onShow : dlgGallery_onShow
