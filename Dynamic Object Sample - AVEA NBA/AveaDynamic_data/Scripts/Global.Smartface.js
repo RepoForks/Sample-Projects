@@ -88,13 +88,9 @@ var topIndex = 0; //repeatbox scroll index after pull-up
 var basePath = "http://www.aveanba.com/content/"; //base URL path for images
 var newsID = -1; //index of news to show on details page
 var rHeight = 1; //height of the repeatbox row, the amount of pixel changes per device
-var margin = Device.screenHeight / 20; // --> bunu sor
-var start = "firststart"; //--> gereksiz olabilir
-var currentNews = ""; //--> gereksiz olabilir
 var response; //JSON parsed object, answer recived from server for every call
 var responseObject = []; //array for all response recieved from server
 var wc1; //webClient object for fetching server response
-var firstrun = "firstrun"; //-->kontrol et
 var previousRightBarButtonItems = []; //a variable to check for UI optimization of content page navigationBar
 var seek; //ındex for news when selected from repeatbox //--> diğer index ile duplicate olmasın
 var firstTime = true; //a flag to mark the content has been initialized
@@ -135,7 +131,7 @@ function logoPressed(e) {
 }
 // open gallery
 function btnPhotoGallery_onPressed(e) {
-    dlgGallery.show(); // dlgGallery.show(SMF.UI.MotionEase.accelerating, SMF.UI.TransitionEffect.leftToRight, SMF.UI.TransitionEffectType.push, false, false);
+    dlgGallery.show();
 }
 //play video
 function btnVideo_onPressed(e) {
@@ -171,14 +167,6 @@ function pgContent_onShow(e) {
                     },
                     title : "Paylaş"
                 });
-            /*var actionbarItems = [homeItem_and, shareButtonItem_and];
-            if (photolength > 0) {
-            actionbarItems.unshift(actionBarGalleryPhoto);
-            }
-            if (videoControl != null) {
-            actionbarItems.unshift(actionBarVideo);
-            }
-            pgContent.actionBar.menuItems = actionbarItems;*/
             pgContent.actionBar.displayShowHomeEnabled = true;
             pgContent.actionBar.icon = "logo.png";
             pgContent.actionBar.displayShowTitleEnabled = true;
@@ -492,7 +480,6 @@ function Global_Events_OnStart(e) {
     rBox.activeItemTemplate.add(lblSpotAc);
     rBox.pullUpItem.add(ai);
     Pages.Page1.add(rBox);
-    start = "notstart";
     // indicator in content page
     aicontent = new SMF.UI.ActivityIndicator({
             left : "47.19%",
@@ -514,8 +501,6 @@ function Global_Events_OnStart(e) {
             left : "0",
             top : "0",
             visible : false,
-            // movieScalingMode : SMF.UI.MovieScalingMode.aspectFit,
-            //  controlStyle : SMF.UI.VideoControlStyle.fullScreen,
             touchEnabled : true
         });
     /// rectangle in content page for background
@@ -787,5 +772,5 @@ function resetContentPageView(forceReSet) {
     lblContentTitle.text = responseObject[seek].title;
     lblContentSpot.text = responseObject[seek].spot;
     lblContentText.text = responseObject[seek].content;
-    svContentMainScroll.contentHeight = cntContentAnimation.height + cntContentAnimation.top + margin;
+    svContentMainScroll.contentHeight = cntContentAnimation.height + cntContentAnimation.top + (Device.screenHeight / 20);
 }
