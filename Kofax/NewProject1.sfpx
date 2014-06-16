@@ -2,7 +2,7 @@
 	<MainPageSettings Name="Page1" />
 	<Platform ScreenHeight="480" ScreenWidth="320" Dpi="163" AndroidVirtualDevice="" />
 	<SocialNetworks FacebookAppUID="" FacebookAppSecret="" TwitterConsumerKey="" TwitterConsumerSecret="" />
-	<MapApi AndroidMapKey="01u81e3cP5lidl1HRJ55hoBH0N5_Kmlvku4EIYg" IosGeocodingKey="" />
+	<MapApi AndroidMapKey="" IosGeocodingKey="" />
 	<AdMob PublisherId="" TestUsage="0" />
 	<FlurryAnalytics Enable="0" IOSAppID="" AndroidAppID="">
 		<LogUserInfoStatistics Enable="1" const_UserID="" const_Age="" const_Gender="">
