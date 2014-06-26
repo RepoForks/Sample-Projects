@@ -24,7 +24,6 @@ var barButtonImage2 = new SMF.UI.iOS.BarButtonItem({
 });
 this.navigationItem.rightBarButtonItems = [barButtonImage];
 this.navigationItem.leftBarButtonItems = [barButtonImage2];
-
 }
     //if the device is Android , it sets the actionBar behaviours.
     if(Device.deviceOS != "iOS")
@@ -35,8 +34,7 @@ this.navigationItem.leftBarButtonItems = [barButtonImage2];
           type:SMF.UI.TitleViewType.image,
           alignment:SMF.UI.Alignment.center,
           image:"headerLogo.png",
-}      
-
+}
 var item1 = new SMF.UI.Android.MenuItem({
             id : "1",
             icon : "share_.png",
@@ -46,7 +44,6 @@ var item1 = new SMF.UI.Android.MenuItem({
           }
         });
 this.actionBar.menuItems = [item1];
-
 // Closes the btnBack visiblity for iOS Devices.
  Pages.Page2.cntHeader.btnBack.visible = false;
 }

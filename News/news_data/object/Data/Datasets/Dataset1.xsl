@@ -1,4 +1,4 @@
-<DATASET ID="A7434C0B-7E54-4F1D-B48C-BE4A60C45A03" Name="WebClient_OutDSetWebClient" TableID="B15F1AC0-75CE-4079-A769-C231337F6EBA" AutoCommit="0" FastCommit="0" PreserveState="0">
+<DATASET ID="6B9AE090-DAC6-447F-9E00-D460EA90CCE9" Name="WebClient_OutDSetWebClient" TableID="B15F1AC0-75CE-4079-A769-C231337F6EBA" AutoCommit="0" FastCommit="0" PreserveState="0">
 	<SQLTEXT>
 	<![CDATA[
 SELECT "WebClient_OutDTblWebClient"."WebClientId", "WebClient_OutDTblWebClient"."WebClient", "WebClient_OutDTblWebClient"."success", "WebClient_OutDTblWebClient"."news", "WebClient_OutDTblWebClient"."title", "WebClient_OutDTblWebClient"."id", "WebClient_OutDTblWebClient"."description", "WebClient_OutDTblWebClient"."spot", "WebClient_OutDTblWebClient"."image", "WebClient_OutDTblWebClient"."error" FROM "WebClient_OutDTblWebClient"

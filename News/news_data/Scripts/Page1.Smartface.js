@@ -13,15 +13,11 @@ Pages.Page1.navigationItem.titleView = {
             frame:[0,0,44,44],// left, top, width, height
             image:"headerLogo.png"
       }
-
 //swipe for iOS , longTouch for Android allows user to delete a row.
 Pages.Page1.rptNews.allowDeletingItems = true;
 //Changes the Statusbar color for iOS 7 devices.
     SMF.UI.StatusBar.color = "#2d3e50";
-    
     }
-    
-    
     //if the device is Android , it sets the actionBar behaviours.
     if (Device.deviceOS != 'iOS') {
          this.actionBar.visible = true;
@@ -30,7 +26,7 @@ Pages.Page1.rptNews.allowDeletingItems = true;
          type:SMF.UI.TitleViewType.image,
          alignment:SMF.UI.Alignment.center,
          image:"headerLogo.png",
-}           
+}
         //Sets the repeatBox height for Android Devices. Because, Statusbar height is changable for Android devices.
         Pages.Page1.rptNews.height = Pages.Page1.rptNews.height + Device.statusBarHeight;
     }
