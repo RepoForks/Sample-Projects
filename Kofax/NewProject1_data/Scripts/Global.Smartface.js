@@ -31,7 +31,7 @@ var info  = {
 };
 
 function checkLicense(){
-    if (SDK_LICENSE == "SDK_LICENSE"){
+    if (SDK_LICENSE == "YOUR_SDK_LICENSE"){
         alert(info.nosdk);
         return false;
     }
